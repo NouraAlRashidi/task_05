@@ -9,3 +9,5 @@ class Restaurant(models.Model):
     def __str__ (self):
 
  		return self.name
+
+ 		#str has to be here to get the attribute name

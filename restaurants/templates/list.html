@@ -8,6 +8,7 @@
         {% for restaurant in restaurants %}
                 <ul>
                     <li><a href= "{% url 'restaurant-detail' restaurant.id%}"><h1>{{restaurant.name}}</h1></a></li>
+
                     <li>{{restaurant.description}}</li>
                     <li>{{restaurant.opening_time}}</li>
                     <li>{{restaurant.closing_time}}</li>
